@@ -15,7 +15,7 @@ Petty Weather is a snarky little weather app that delivers not only the current 
 ![Homepage](images/homepage.png)
 
 ### 🌆 City Weather Example
-![City Weather](images/city_choice.png)
+![City Weather](images/city_choices.png)
 
 ### 😏 Snarky Remark in Action
 ![Snarky Remark](images/sassy.png)
