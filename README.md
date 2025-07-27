@@ -12,13 +12,13 @@ Petty Weather is a snarky little weather app that delivers not only the current 
 - Built with HTML, CSS, and JavaScript
 - Uses the [OpenWeather API](https://openweathermap.org/api)
 
-![Homepage](images/homepage)
+![Homepage](images/homepage.png)
 
 ### 🌆 City Weather Example
-![Choose your city from the list](images/city_choice.png)
+![City Weather](images/city_choice.png)
 
 ### 😏 Snarky Remark in Action
-![Sassy Remark](images/sassy.png)
+!![Snarky Remark](images/sassy.png)
 
 
 
