@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petty Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Petty Weather</h1>
+  <p>Type a city and get roasted by the weather gods:</p>
+  <input type="text" id="cityInput" placeholder="e.g., Springfield">
+  <button onclick="getWeather()">Get Weather</button>
+  <button onclick="toggleUnits()">Toggle °F / °C</button>
+  <span id="unitLabel">°F</span>
+
+  <div id="cityOptions"></div> <!-- list of matching cities -->
+  <div id="weatherResult"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

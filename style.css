@@ -1,0 +1,68 @@
+/* style.css */
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #c1d3fe, #fbc2eb);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 2em;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #2b2d42;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+input[type="text"] {
+  padding: 0.6em;
+  width: 220px;
+  border: 2px solid #2b2d42;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  margin: 0.5em;
+  font-size: 1em;
+  background: #2b2d42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background: #8d99ae;
+  transform: scale(1.05);
+}
+
+#unitLabel {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+
+#weatherResult {
+  margin-top: 1.5em;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+
+#cityOptions button:hover {
+  background: #2b2d42;
+  color: #edf2f4;
+}
